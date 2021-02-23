@@ -1,0 +1,16 @@
+
+def figs_to_words():
+    input_number = input("Enter number to be converted to words: ")
+    figs = (0, 1, 2, 3, 4, 5, 6, 7, 8, 9)
+    words = ('zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine')
+    input_length = len(input_number)
+    print("Input# " + input_number)
+    print("Input_length " + str(input_length))
+    input_string = input_number
+    for x in input_string:
+       for i in range(len(figs)):
+           if x == str((figs[i])):
+               print(str(figs[i]) + " " + str(words[i]))
+
+figs_to_words()
+			
