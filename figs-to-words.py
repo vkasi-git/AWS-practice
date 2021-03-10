@@ -1,4 +1,7 @@
 '''
+Author : Vidya Kasi
+Date : March 2021
+
 This program converts numbers to words. For example '1' is converted to 'one'.
 The current code can convert up to 9 digits in Metric form, i.e. tens of crores.
 This can be extended to Imperial with additional code. The code for Metric and Imperial is same
